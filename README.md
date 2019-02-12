@@ -11,11 +11,11 @@ This is a set of XSL stylesheets for parsing valid & well-formed blastxml report
 
 ## Examples
 
-Use xsltproc
-
+Using xsltproc:
 http://xmlsoft.org/XSLT/xsltproc.html
 
      xsltproc -o blasthits_parsed.html blastxml_fasta.xsl blasthits.xml
 Or
+
      xsltproc blastxml_fasta.xsl blastxml.xml > outfile.html
 
