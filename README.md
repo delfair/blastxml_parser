@@ -37,3 +37,4 @@ Or
 
      xsltproc blastxml_fasta.xsl blasthits.xml > outfile.html
 
+That's it!
