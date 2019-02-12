@@ -21,16 +21,20 @@ Transform to parse HSPs (query def, hit def, HSP to & from) into html table
 ### blastxml_tablescore.xsl
 Transform to parse HSPs (hit number, score and query def) into html table
 
-### Example useage
+### Using the stylesheets
 
-Assumes UNIX / Linux / OSX operating system, and that blastxml report and XSL files are in the same directory. First, check that xsltproc is installed:
+Assumes UNIX / Linux / OSX operating system, and that blastxml report and XSL files are in the same directory. 
+
+xsltproc is part of libxlst so likely to be installed on your system by default. You can check:
 
      xsltproc -V
 
-If not, get it here:
+More info here:
+http://xmlsoft.org/XSLT/index.html
+See also the man pages:
 http://xmlsoft.org/XSLT/xsltproc.html
 
-Then:
+Example useage:
 
      xsltproc -o outfile.html blastxml_fasta.xsl blasthits.xml
 Or
