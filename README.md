@@ -7,7 +7,7 @@ Writing scripts in Perl, Python or similar to parse the good bits from NCBI-BLAS
 More specifically, XSLT is a powerful and native XML method for transforming XML documents:
 https://www.w3schools.com/xml/xsl_intro.asp 
 
-This is a set of XSL stylesheets for transforming valid & well-formed NCBI-BLAST blastxml reports. They generate simple html formatted output. More importantly, they are easy to understand - and to modify if you want to parse out different fields.
+This is a set of XSL stylesheets for transforming valid & well-formed NCBI-BLAST blastxml reports. They generate simple html formatted output. They are easy to understand - and to modify if you want to parse out different fields.
 
 ### blastxml_table.xsl
 Transform to parse HSPs (hit number, ID, def & accession) into a simple html summary table
