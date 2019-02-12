@@ -29,7 +29,7 @@ Transform to parse HSPs (hit number, score and query def) into html table
 
 ### Example useage
 
-Assumes .*nix* operating system (UNIX, Linux, OSX), and that blastxml report and XSL files are in the same directory. First, check that xsltproc is installed:
+Assumes UNIX / Linux / OSX operating system, and that blastxml report and XSL files are in the same directory. First, check that xsltproc is installed:
 
      xsltproc -V
 
