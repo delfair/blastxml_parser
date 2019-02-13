@@ -13,10 +13,10 @@ Transform to parse HSPs (hit number, ID, def, accession & HSP sequence) into a s
 ### blastxml_fasta.xsl
 Transform to parse HSP hit sequences into multifasta format. This is a simple way to obtain the HSP sequences for further alignment, analysis etc.
 
-These are particularly useful if you want to parse reports from standalone NCBI-BLAST on a local BLAST database using a multifasta query:
+These are particularly useful if you want to parse reports from pairwise multifasta vs. multifasta NCBI-BLAST searches (e.g. a set of contigs vs. a set of genes of interest): 
 
 ### blastxml_tablehits.xsl
-Transform to parse HSPs (query def, hit def, HSP to & from) into html table
+Transform to parse HSPs (query def, hit def, HSP location) into html table
 
 ### blastxml_tablescore.xsl
 Transform to parse HSPs (hit number, score and query def) into html table
