@@ -1,8 +1,8 @@
 ## blastxml_parser
 
-Writing scripts in Perl, Python or similar to parse the good bits from NCBI-BLAST reports is of course a great exercise in using regular expressions etc. A useful way to parse XML (blastxml) reports is ... using XML. More specifically, XSLT is a powerful and native XML method for transforming XML documents: https://www.w3schools.com/xml/xsl_intro.asp 
+Writing scripts in Perl, Python or similar to parse the good bits from NCBI-BLAST reports is a great exercise in using regular expressions and/or XML parsing. A nicer way to parse XML (blastxml) reports is ... using XML. More specifically, XSLT is a powerful and native XML method for transforming XML documents: https://www.w3schools.com/xml/xsl_intro.asp 
 
-This is a set of XSL stylesheets for transforming valid & well-formed NCBI-BLAST blastxml reports. These transforms are easy to understand, and to modify if you want to parse out different fields, or generate output formatted as html, XML, plain text etc.
+This is a set of XSL stylesheets for transforming valid & well-formed NCBI-BLAST blastxml reports. These transforms are easy to understand and easy to modify if you want to parse out different fields from the XML tree, or generate output formatted as html or plain text (or more XML...)
 
 ### blastxml_table.xsl
 Transform to parse HSPs (hit number, ID, def & accession) into a simple html summary table.
